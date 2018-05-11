@@ -50,7 +50,7 @@
 * Separar commits (edit)
 
 
-## Fork
+### Fork
   Es como un branch del repo al que le hacemos fork. Ejemplo:
   Tenemos el repo google/maps luego de hacer un fork con nuestra cuenta en nuestro
   panel tendremos un proyecto con el nombre  isajar/maps al cual le vamos a poder
