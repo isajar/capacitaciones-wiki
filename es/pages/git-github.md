@@ -50,11 +50,24 @@
 * Separar commits (edit)
 
 
-### Fork
+## Fork
   Es como un branch del repo al que le hacemos fork. Ejemplo:
   Tenemos el repo google/maps luego de hacer un fork con nuestra cuenta en nuestro
   panel tendremos un proyecto con el nombre  isajar/maps al cual le vamos a poder
   hacer push.  
+
+
+## Issue
+  Son acciones/problemas que deben ser atendidos. GitHub brinda todo una plataforma para poder gestionarlos
+
+
+## Milestones
+  Es un hito en mis issues. De esta forma puedo agrupar un conjunto de issues en un milestone y ver el progreso para cumplir con el milestone. Un ejemplo de milestone seria 'version 1.0.0 en produccion'.
+
+
+## Gist
+  Util para compartir archivos pequeños, como script, librerias , archivos de configuracion, etc.
+  Mediante el uso de pluging en editores como atom podremos agregarlos facilmente a nuestro proyecto.
 
 
 ## Buenas practicas
@@ -74,29 +87,29 @@
 ## Comandos CLI Git
 
 
-* Inicializar git
+### Inicializar git
 
   `git init [directorio]`
 
-* Archivo configuraciones globales
+### Archivo configuraciones globales
 
   `git config --global -e`
 
-* Configurar nombre y email
+### Configurar nombre y email
 
   `git config --global user.name "nombre"`
 
   `git congig --global user.email "email"`
 
-* Volver al ultimo commit
+### Volver al ultimo commit
 
   `git checkout -- .`
 
-* Volver al ultimo estado de un archivo en particular
+### Volver al ultimo estado de un archivo en particular
 
   `git checkout -- [archivo]`
 
-* Ver el estado del arbol de trabajo. Los archivos que se encuentra en el stage
+### Ver el estado del arbol de trabajo. Los archivos que se encuentra en el stage
 
   `git status`
 
@@ -104,7 +117,7 @@
 
   `git status -sb` *adiciona nombre de branch actual*
 
-* Agregar archivos al stageciencia y tecnica parana
+### Agregar archivos al stageciencia y tecnica parana
 
   `git add [archivo] [.]`  *El punto agrega todos los archivos del directorio*
 
@@ -112,27 +125,27 @@
 
   `git add -u` *Actualiza todos los archivos que tienen seguimiento*
 
-* Quitar archivos del stage
+### Quitar archivos del stage
 
   `git reset [archivo] o [hash de commit anterior]`
 
-* Relizar un commit (instantanea del stage)
+### Relizar un commit (instantanea del stage)
 
   `git commit -m [mensaje]`
 
   `git commit --amend -m "[mensaje]"` *actualiza el texto del mensaje*
 
-* Resets
+### Resets
 
   `git reset --soft [hash]` *vuelve a cierto commit manteniendo los cambios en archivos*
 
   `git reset --hard [hash]` *vuelve todo hasta el commit especificado eliminando cambios en archivos*
 
-* Agregar al stage y hacer commit
+### Agregar al stage y hacer commit
 
   `git commit -am "[mensaje]"`
 
-* Ver el log (historial de sucesos)
+### Ver el log (historial de sucesos)
 
   `git log`
 
@@ -142,25 +155,25 @@
 
   `git reflog` *se ve todo el log incluso los resets*
 
-* Alias
+### Alias
 
   `git config --global alias.[alias] [comando]`
 
-* Ver los cambios realizados
+### Ver los cambios realizados
 
   `git diff` *responde con un '-' para indicar eliminaciones y un '+' incerciones*
 
-* Eliminar archivo del proyecto
+### Eliminar archivo del proyecto
 
   `git rm [archivo]`
 
-* Listar archivos para que git ignore
+### Listar archivos para que git ignore
 
   1. Crear /.gitignore
   2. Por linea especificar que archivos se desean ignorar
   3. Si se desear ignorar todo un directorio especificar [nombre_directorio/]
 
-* Branches
+### Branches
 
   `git branch [nombre de la rama]` *para crear una nueva rama*
 
@@ -174,11 +187,11 @@
 
   `git checkout -b [rama]` *crea una rama y se mueve automaticamente a ella*
 
-* Tags
+### Tags
 
   `git tag -a [nombre_del_tag] <commit_hash> -m ["Mensaje"]` *crea un nuevo tag acompañado del msj en caso de no especificar commit_hash se realiza el tag sobre el ultimo commit*
 
-* Stashing
+### Stashing
 
   `git stash save [mensaje]` *crea un nuevo stash con el mensaje*
 
@@ -192,7 +205,7 @@
 
   `git show stash` *muestra info del ultimo stash*
 
-* Rebase
+### Rebase
 
   `git rebase [nombre_rama]` *Se le adicionan a la rama actual los commits de la rama especificada*
 
@@ -201,41 +214,45 @@
 
 ## Comandos CLI GitHub
 
-* Agregar repo
+### Agregar repo
 
   `git remote add [nombre_repo] [link_repo]` *agrega nombre_origen como repo remoto al proyecto*
    *por convencion para nuestro repo remoto se usa como nombre_repo* **origin**
    *si es un repo al cual solo podemos hacer fetch se le pone como nombre_repo* **upstream**
 
-* Subir cambios
+### Subir cambios
 
   `git push -u origin master` *sube el master (master local) al repo remoto (origin) y actualiza. -u deja master por defecto*
 
   `git push [remotename] [localbranch]:[remotebrach]` *actualiza la rama remota remotebranch con los cambios efectuados en localbrach, por defecto localbrach es el master local y remotebranch es el master remoto*
 
-* Info de repos
+### Info de repos
 
   `git remote -v` *muestra el origen para hacer push y fetch*
 
-* Subir Tags
+### Subir Tags
 
   `git push --tags` *sube los tags del origen al remoto*
 
-* Clonar repo
+### Clonar repo
 
   `git clone [url_origen] <nombre_destino>` *clona un repositorio y renombra el root con nombre_dest*
 
-* Descargar cambios
+### Descargar cambios
 
   `git fetch [origen] [remoto]` *descarga los cambios de remoto sin hacer el merge*
 
   `git pull [origen] [remoto]` *descarga los cambios de remoto y hace el merge*
 
-* Listar todas las ramas (remotas y locales)
+### Listar todas las ramas (remotas y locales)
 
   `git branch -a`
 
-* Eliminar Branches remotos
+### Eliminar Branches remotos
 
   `git push  :<remote_branch_name>` *con esto le estamos diciendo que actualice con nada (elimine)*
   *la rama remota*
+
+### Commit soluciona issue
+
+  `git commit -m "[mensaje] <fixes> <resolves> <closes> [#id_issue]"` *Indica que el commit hace referencia a un issues con id #id_issue*

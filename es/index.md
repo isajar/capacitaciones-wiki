@@ -1,6 +1,4 @@
-# Bienvenidos
+# Bienvenidos a mi wiki personal
 
 
-## Desarrollo
-
-### [Git-GitHub](pages/git-github.md)  
+* [Capacitaciones](pages/capacitaciones.md)  

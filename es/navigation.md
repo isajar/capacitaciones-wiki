@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Capacitaciones 
+# Wiki Home
 
 
 <!--
@@ -19,7 +19,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[About](pages/about.md)
+[Capacitaciones](pages/capacitaciones.md)
 [Download](pages/download.md)
 
 <!-- A more complex navigation example: ----------------------------------------
