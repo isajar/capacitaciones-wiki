@@ -1,4 +1,16 @@
-# Bienvenidos a mi wiki personal
+### Bienvenidos a mi wiki personal :)
+### Isajar Spector
 
 
-* [Capacitaciones](pages/capacitaciones.md)  
+# Desarrollo de software
+
+## Git y Git Hub
+
+* [Comandos, terminologia y buenas practicas](pages/git-github.md)  
+
+
+# Testing
+
+## Angular
+
+* [Angular Testing](pages/angular-testing)

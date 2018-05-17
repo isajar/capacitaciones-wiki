@@ -19,8 +19,10 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
+<!-- Forma de escribir la navegacion
 [Capacitaciones](pages/capacitaciones.md)
 [Download](pages/download.md)
+-->
 
 <!-- A more complex navigation example: ----------------------------------------
 

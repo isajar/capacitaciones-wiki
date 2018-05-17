@@ -50,22 +50,22 @@
 * Separar commits (edit)
 
 
-### Fork
+## Fork
   Es como un branch del repo al que le hacemos fork. Ejemplo:
   Tenemos el repo google/maps luego de hacer un fork con nuestra cuenta en nuestro
   panel tendremos un proyecto con el nombre  isajar/maps al cual le vamos a poder
   hacer push.  
 
 
-### Issue
+## Issue
   Son acciones/problemas que deben ser atendidos. GitHub brinda todo una plataforma para poder gestionarlos
 
 
-### Milestones
+## Milestones
   Es un hito en mis issues. De esta forma puedo agrupar un conjunto de issues en un milestone y ver el progreso para cumplir con el milestone. Un ejemplo de milestone seria 'version 1.0.0 en produccion'.
 
 
-### Gist
+## Gist
   Util para compartir archivos pequeños, como script, librerias , archivos de configuracion, etc.
   Mediante el uso de pluging en editores como atom podremos agregarlos facilmente a nuestro proyecto.
 
