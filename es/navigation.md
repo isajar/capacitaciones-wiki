@@ -24,10 +24,10 @@
 [Download](pages/download.md)
 -->
 [About](./index.md)
-[Desarrollo](pages/desarrollo,md)
+[Desarrollo](pages/desarrollo.md)
 [Testing]()
-  * [Overview](pages/testing.md)
-  * [Angular Testing](pages/angular-testing.md)
+[Overview](pages/testing.md)
+[Angular Testing](pages/angular-testing.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
