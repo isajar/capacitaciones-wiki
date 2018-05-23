@@ -34,13 +34,34 @@ Utilizado para hacer un diagnostico rapido del sistema sin esperar a ejecutar la
 Utilizado para hacer un tracking del error. Es decir, una vez que el error es detectado regresar hacia atraz para localizar la fuente del error.
 
 
-## Angular Testing 
+## Automated testing
 
-### Links de interes
+### Unit test
+Se prueba el componente de una manera aislada
 
-* [Codecraft](https://codecraft.tv/courses/angular/unit-testing/jasmine-and-karma/) *Resumen de testing en angular*
+### Integration test
+Se prueba el componente junto con el template
 
-* [Angular Testing Docs](https://angular.io/guide/testing) *Documentacion oficial de la pagina de Angular*
+### Clean code practices
+ * Menos de 10 lineas por metodo
+ * Cada metodo realiza una sola tarea
+ * El nombre del metodo es apropiado para la funcion que realiza
+ * Dejar una linea entre las cada parte del patron de testing (las tres A)
 
-### Jasmine
-Es un framework enfocado en BDD para testing en JavaScript
+### Patron en testing
+ * Triple A: Arrange, Act, Assert
+
+### Arrange
+Prepara el escenario para el testing (inicializacion de variables)
+
+### Act
+Ejecucion de metodos que pueden modificar las variables
+
+### Assert
+Ejecucion de testing para comprobar el funcionamiento esperado de ACT.
+
+### Set Up
+Funcion utilizada en testing para inicializar el escenario de prueba. En Jasmine recibe el nombre de beforeEach().
+
+### Tear Down
+Funcion utilizada en testing para limpiar el escenario de prueba. En Jasmine recibe el nombre de afterEach().

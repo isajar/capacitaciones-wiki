@@ -23,6 +23,11 @@
 [Capacitaciones](pages/capacitaciones.md)
 [Download](pages/download.md)
 -->
+[About](./index.md)
+[Desarrollo](pages/desarrollo,md)
+[Testing]()
+  * [Overview](pages/testing.md)
+  * [Angular Testing](pages/angular-testing.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
