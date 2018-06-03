@@ -117,7 +117,7 @@
 
   `git status -sb` *adiciona nombre de branch actual*
 
-### Agregar archivos al stageciencia y tecnica parana
+### Agregar archivos al stage
 
   `git add [archivo] [.]`  *El punto agrega todos los archivos del directorio*
 
