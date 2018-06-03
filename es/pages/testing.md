@@ -1,4 +1,4 @@
-# Notas sobre el testing de software
+# Testing overview 
 
 ## Principios del testing
 
