@@ -25,11 +25,11 @@
 -->
 [About](./index.md)
 [Desarrollo](pages/desarrollo.md)
-[Testing]()
+<!-- [Testing]()
   * [Overview](pages/testing.md)
-  * [Angular Testing](pages/angular-testing.md)
+  * [Angular Testing](pages/angular-testing.md) -->
 
-<!-- A more complex navigation example: ----------------------------------------
+
 
 [Menu Item 1]()
 
@@ -47,7 +47,7 @@
 
 [Menu Item 3](pages/item3.md)
 
----------------------------------------------------------------------------- -->
+
 
 <!--
   -- Change the Language
