@@ -19,10 +19,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-<!-- Forma de escribir la navegacion
-[Capacitaciones](pages/capacitaciones.md)
-[Download](pages/download.md)
--->
+
 [About](./index.md)
 
 [Testing]()
@@ -30,12 +27,6 @@
   * [Overview](pages/testing.md)
   - - - -
   * [Angular](pages/angular-testing.md)
-
-<!-- [Desarrollo]()
-
-  * [Overview](pages/desarrollo.md)
-  - - - -
-  * [Git GitHub](pages/git-github.md) -->
 
 
 [Testing]()
