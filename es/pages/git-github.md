@@ -1,4 +1,4 @@
-# Git & GitHub 
+# Git & GitHub
 
 ## Terminologia
 
@@ -258,3 +258,7 @@
 ### Commit soluciona issue
 
   `git commit -m "[mensaje] <fixes> <resolves> <closes> [#id_issue]"` *Indica que el commit hace referencia a un issues con id #id_issue*
+
+### Modifies the index or directory cache
+
+  `git update-index --assume-unchanged [nombre_archivo]` *Le dice a git que asuma ese archivo como que no tuvo cambio* 
