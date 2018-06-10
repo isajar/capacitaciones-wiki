@@ -32,8 +32,18 @@
 ## Flex 
 
 * Util para manejar la alineacion de las columnas
-* [Ejemplo en html](flexbox.html)
 * [Doc oficial flex-box](https://getbootstrap.com/docs/4.0/utilities/flex/)
+
+### Reglas
+
+* Utilizar disposicion normal de grilla: contenedor->fila->columna
+* Crear una clase padre que utilice la clase `d-flex`
+* Luego todos los `<div>` hijos se podrán manipular con flex-box.
+
+### Ejemplos
+* [Ejemplo en html](flexbox.html)
+* [Ejemplo 2 en html](flexbox2.html)
+* [Ejemplo 3 en html](flexbox3.html)
 
 
 ## Spacing utilities (margin and padding)
