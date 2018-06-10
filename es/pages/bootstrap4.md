@@ -32,7 +32,7 @@
 ## Flex 
 
 * Util para manejar la alineacion de las columnas
-* [Ejemplo en html](/flexbox.html)
+* [Ejemplo en html](flexbox.html)
 * [Doc oficial flex-box](https://getbootstrap.com/docs/4.0/utilities/flex/)
 
 
