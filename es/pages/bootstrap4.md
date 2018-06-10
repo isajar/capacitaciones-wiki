@@ -17,7 +17,9 @@
  * Los tamaños de Columna en Bootsrap 4 son:
 
     * `.col`        Extra Pequeño (Extra Small) **Smartphones Vertical** Menos de 544px
-    * `.col-sm` 	Pequeño (Small) **Smartphones Vertical**	 		 Mas de 544px y Menos de 768px   * `.col-md` 	Mediano (Medium) **Tablets** 						 Mas de 768px y Menos de 992px   * `.col-lg` 	Largo (Large) **Computadoras**						 Mas de 992px y Menos  1200px
+    * `.col-sm` 	Pequeño (Small) **Smartphones Vertical**	 		 Mas de 544px y Menos de 768px
+    * `.col-md` 	Mediano (Medium) **Tablets** 						 Mas de 768px y Menos de 992px  
+    * `.col-lg` 	Largo (Large) **Computadoras**						 Mas de 992px y Menos  1200px
     * `.col-xl` 	Extra Largo (Extra Large) **Computadoras**			 Mas de 1200px
 
 ## Utilities
@@ -30,7 +32,9 @@
 ## Flex 
 
 * Util para manejar la alineacion de las columnas
+* [Ejemplo en html](/flexbox.html)
 * [Doc oficial flex-box](https://getbootstrap.com/docs/4.0/utilities/flex/)
+
 
 ## Spacing utilities (margin and padding)
 
